@@ -1,0 +1,385 @@
+/* fonts section */
+/* @font-face {
+	font-family: Poppins-Regular;
+	src: url(fonts/poppins/Poppins-Regular.ttf);
+} */
+
+@font-face {
+	font-family: pacifico-regular;
+	src: url(fonts/pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+	font-family: Poppins-Thin;
+	src: url(fonts/poppins/Poppins-Thin.ttf);
+}
+@font-face {
+	font-family: Poppins-regular;
+	src: url(fonts/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+	font-family: Playfair-display;
+	src: url(fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+	font-family: LibreFranklin;
+	src: url(fonts/Libre_Franklin/static/LibreFranklin-Regular.ttf);
+}
+
+/* end fonts section */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	box-sizing: border-box;
+}
+/* specials classes section*/
+.main {
+	padding: 0 12rem;
+}
+
+.end-section {
+	margin-bottom: 3rem;
+}
+
+.start-section {
+	padding-top: 8rem;
+}
+
+.space-section {
+	padding-top: 3rem;
+	margin-bottom: 1rem;
+}
+
+/* .small-top-padding {
+	padding-top: 2rem;
+} */
+.bottom-space {
+	padding-bottom: 1rem;
+}
+
+.small-start-section {
+	padding-top: 4rem;
+}
+
+.detail-link {
+	color: black;
+	text-decoration: none;
+}
+
+.detail-link:hover {
+	text-decoration: underline;
+}
+/* end special classes section   */
+.container .header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container .header h1 {
+	font-family: pacifico-regular;
+	cursor: pointer;
+}
+.container .header .vertical {
+	border-left: 2px solid lightgray;
+	height: 18px;
+	position: absolute;
+	left: 82%;
+}
+
+.container .header ul {
+	display: flex;
+	justify-content: space-around;
+	gap: 40px;
+	padding: 15px;
+	align-items: center;
+}
+
+.container .header ul li {
+	list-style: none;
+	font-family: Poppins-Regular;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.active,
+.container .header ul li:hover {
+	color: firebrick;
+}
+.container .header ul .cart-li {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 2px;
+}
+.header {
+	box-shadow: 0 2px 0 0 black;
+	height: 80px;
+	background-color: #ffffff;
+}
+
+.banner {
+	background-image: url(images/banner_background.jpg);
+	background-repeat: no-repeat;
+	/* background-size: 100%; */
+	height: 80vh;
+	display: flex;
+}
+.first-part h5 {
+	color: lightcoral;
+	font-family: Poppins-Thin;
+	height: 24px;
+	font-size: 18px;
+}
+.title-symbol {
+	display: flex;
+}
+
+.symbol {
+	font-family: Playfair-display;
+	font-size: 58px;
+	height: 58px;
+	color: firebrick;
+}
+.text {
+	float: left;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+.poppin-regular {
+	font-family: Poppins-Regular;
+	font-size: 25px;
+	height: 48px;
+}
+
+.first-part h1 {
+	font-family: Poppins-regular;
+	font-size: 48px;
+	height: 58px;
+}
+
+.title {
+	width: 26rem;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: break-word;
+}
+
+.first-part .text p {
+	font-family: LibreFranklin;
+	height: 26px;
+	font-size: 14px;
+	color: dimgray;
+	font-weight: 500;
+}
+/* .first-part .paragraph {
+	display: block;
+} */
+
+.shop-collection {
+	width: 210px;
+	height: 58px;
+	background-color: firebrick;
+	border: none;
+	font-family: Poppins-regular;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 2rem;
+}
+
+.shop-collection:hover {
+	background-color: black;
+	color: white;
+	transition: 400ms;
+	transform: translateY(-8px);
+	transition-duration: 500ms;
+}
+
+.banner .image {
+	align-self: center;
+	justify-self: center;
+	height: 490px;
+	width: 1200px;
+	margin-left: -210px;
+	background-image: url(images/banner_image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 3rem;
+}
+.porcelain-pottery-title {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+	justify-content: center;
+}
+
+.red-title {
+	text-align: center;
+	color: lightcoral;
+	font-family: Poppins-Thin;
+	height: 24px;
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+.non-special {
+	font-family: Poppins-regular;
+}
+.special-symbol {
+	padding-bottom: 3rem;
+	font-weight: 200;
+}
+.differents-items {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 5rem;
+}
+
+/* .differents-items li {
+	list-style: none;
+} */
+
+.centered {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.column {
+	flex-direction: column;
+}
+
+.subcircle-dimension {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.circle-main {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.first {
+	background: #d8aa61;
+}
+
+.circle-1-subcircle {
+	background: #e4b366;
+	gap: 0.5rem;
+}
+.pottery-h3 {
+	font-size: 14px;
+	height: 38px;
+	font-family: Poppins-Thin;
+	color: white;
+}
+.poppin-simple {
+	font-family: Poppins-thin;
+	font-size: 38px;
+	height: 58px;
+}
+
+.second {
+	background: #e4560f;
+}
+.third {
+	background: #9a0f0f;
+}
+
+.circle-2-subcircle {
+	background-color: #f05b10;
+	gap: 0.5rem;
+}
+
+.circle-3-subcircle {
+	background-color: #a21010;
+	gap: 0.5rem;
+}
+
+.services-h1 {
+	width: 24rem;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: break-word;
+}
+
+.services-p {
+	width: 35rem;
+	color: dimgray;
+	font-family: LibreFranklin;
+	font-size: 16px;
+}
+
+.services-since {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8rem;
+	padding-bottom: 2rem;
+	height: 40vh;
+	background-color: white;
+}
+.gallery {
+	/* border: #9a0f0f 2px solid; */
+	/* height: 100vh; */
+	/* width: auto; */
+	display: block;
+}
+
+.first-gallery {
+	height: 70vh;
+	width: auto;
+	/* border: gold 2px solid; */
+	display: flex;
+	gap: 6rem;
+	justify-content: space-between;
+	align-items: center;
+}
+.gold-gallery {
+	position: relative;
+}
+.back-paint {
+	height: 190px;
+	width: 450px;
+	opacity: 0.2;
+	z-index: -1;
+	background-color: lightgray;
+	top: 38%;
+	position: absolute;
+}
+.gold-vase {
+	z-index: 1;
+	padding-left: 40%;
+}
+.red-vase {
+	padding-left: 20%;
+	z-index: 1;
+}
+.second-gallery {
+	height: 70vh;
+	width: auto;
+	/* border: silver 2px solid; */
+	display: flex;
+	gap: 6rem;
+	justify-content: space-between;
+	align-items: center;
+}
+.second-gallery .back-paint {
+	top: 25%;
+}
+
+.paragraph {
+	font-family: LibreFranklin;
+	text-justify: auto;
+	height: 26px;
+	font-size: 14px;
+	color: dimgray;
+	font-weight: 500;
+}
