@@ -37,6 +37,9 @@
 body {
 	box-sizing: border-box;
 }
+button:hover {
+	cursor: pointer;
+}
 /* specials classes section*/
 .main {
 	padding: 0 12rem;
@@ -382,4 +385,68 @@ body {
 	font-size: 14px;
 	color: dimgray;
 	font-weight: 500;
+}
+
+.pottery-shop {
+	height: 100vh;
+}
+
+.elements-list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/* border: 2px solid gold; */
+	width: 100%;
+	height: 90vh;
+	gap: 2rem;
+}
+
+.shop-item {
+	width: 30%;
+	height: 50%;
+}
+
+.pot1 {
+	background-image: url(images/pot1.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.shop-item:hover {
+	transition: 400ms;
+	transform: translateY(-18px);
+	transition-duration: 800ms;
+	border: lightcoral 5px solid;
+	border-radius: 30px;
+}
+.pot2 {
+	background-image: url(images/pot2.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pot3 {
+	background-image: url(images/pot3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.pot4 {
+	background-image: url(images/pot4.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.pot5 {
+	background-image: url(images/pot5.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.the1 {
+	background-image: url(images/the1.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
