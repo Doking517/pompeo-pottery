@@ -21,10 +21,10 @@
 			<div class="header main">
 				<h1>Pompeo</h1>
 				<ul>
-					<li class="active">HOME</li>
-					<li>ABOUT</li>
-					<li>SHOP</li>
-					<li>CONTACT</li>
+					<li class="active"><a href="#home">HOME</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#collection">COLLECTION</a></li>
+					<li><a href="#contact">CONTACT</a></li>
 					<div class="vertical"></div>
 					<li class="cart-li">
 						<img
@@ -32,12 +32,15 @@
 							alt="cart"
 							height="20"
 						/>
-						Cart
+						<a href="#shop">SHOP</a>
 					</li>
 				</ul>
 			</div>
 			<div class="banner">
-				<div class="first-part main space-section">
+				<div
+					class="first-part main space-section"
+					id="home"
+				>
 					<h5 class="space-section">POMPEO POTTERY</h5>
 					<section class="text">
 						<span class="title-symbol">
@@ -54,7 +57,10 @@
 				</div>
 				<section class="image"></section>
 			</div>
-			<div class="product-category main small-start-section">
+			<div
+				class="product-category main small-start-section"
+				id="about"
+			>
 				<h5 class="red-title">PRODUCT CATEGORY</h5>
 				<div class="porcelain-pottery-title">
 					<h1 class="non-special">Porcelain</h1>
@@ -187,12 +193,15 @@
 				</div>
 			</div>
 			<hr />
-			<div class="pottery-collection">
+			<div
+				class="pottery-collection"
+				id="collection"
+			>
 				<div class="small-start-section main">
 					<h5 class="red-title bottom-space">ONLINE STORE</h5>
 					<h1 class="non-special centered">POTTERY COLLECTION</h1>
 				</div>
-				<div class="pottery-shop main small-start-section">
+				<div class="pottery-shop main small-start-section end-section">
 					<section class="elements-list end-section">
 						<article class="shop-item pot1"></article>
 						<article class="shop-item pot4"></article>
@@ -203,9 +212,52 @@
 					</section>
 				</div>
 			</div>
-			<section class="centered small-start-section">
-				<button class="shop-collection">view all collection</button>
+			<section class="centered end-section">
+				<button class="shop-collection">VIEW ALL PRODUCTS</button>
 			</section>
+
+			<div
+				class="ready-shopping main start-section end-section"
+				id="shop"
+			>
+				<div class="ready-text">
+					<h5 class="bottom-space">POMPEO POTTERY</h5>
+					<h1 class="non-special bottom-space">READY TO START SHOPPING?</h1>
+					<p class="services-p bottom-space">
+						Lorem ipsum dolor sit amet,<span
+							style="
+								color: #9a0f0f;
+								font-weight: bold;
+								text-decoration: underline;
+								cursor: pointer;
+							"
+							>consectetur adipisicing elit sed do.</span
+						>
+						visitat esqulatuf sokimeos tempor incididunt ut labore dolore aua.
+						Ut enim ad minim,
+					</p>
+					<button class="shop-collection">NEW COLLECTION</button>
+				</div>
+			</div>
+			<div
+				class="contact-us small-start-section"
+				id="contact"
+			>
+				<div class="main end-section">
+					<div class="contact-title bottom-space">
+						<h1 class="centered">Pompeo</h1>
+						<p class="paragraph explanation">
+							| have always striven to fix beauty in wood, stone, glass or
+							pottery, that has been my creed.
+						</p>
+					</div>
+					<div class="contact-items small-start-section">
+						<section class="item"></section>
+						<section class="item"></section>
+						<section class="item"></section>
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

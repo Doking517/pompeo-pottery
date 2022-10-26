@@ -137,6 +137,12 @@ button:hover {
 	height: 24px;
 	font-size: 18px;
 }
+h5 {
+	color: lightcoral;
+	font-family: Poppins-Thin;
+	height: 24px;
+	font-size: 18px;
+}
 .title-symbol {
 	display: flex;
 }
@@ -300,7 +306,13 @@ button:hover {
 	background-color: #f05b10;
 	gap: 0.5rem;
 }
-
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: firebrick;
+}
 .circle-3-subcircle {
 	background-color: #a21010;
 	gap: 0.5rem;
@@ -449,4 +461,34 @@ button:hover {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.ready-shopping {
+	height: 40vh;
+	background-image: url(images/banne2.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+}
+
+.contact-us {
+	border: #9a0f0f 2px solid;
+}
+.contact-title {
+	border: blue 2px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.contact-items {
+	border: gold 2px solid;
+}
+.contact-title h1 {
+	font-family: pacifico-regular;
+}
+.explanation {
+	width: 350px;
+	text-align: center;
 }
