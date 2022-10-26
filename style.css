@@ -170,7 +170,11 @@ h5 {
 	font-size: 48px;
 	height: 58px;
 }
-
+.poppin-small {
+	font-family: Poppins-Regular;
+	font-size: 13px;
+	height: 15px;
+}
 .title {
 	width: 26rem;
 	overflow-wrap: break-word;
@@ -185,9 +189,6 @@ h5 {
 	color: dimgray;
 	font-weight: 500;
 }
-/* .first-part .paragraph {
-	display: block;
-} */
 
 .shop-collection {
 	width: 210px;
@@ -398,7 +399,11 @@ a:hover {
 	color: dimgray;
 	font-weight: 500;
 }
-
+.paragraph-1 {
+	font-family: LibreFranklin;
+	height: 26px;
+	font-size: 14px;
+}
 .pottery-shop {
 	height: 100vh;
 }
@@ -472,23 +477,38 @@ a:hover {
 	align-items: center;
 }
 
-.contact-us {
-	border: #9a0f0f 2px solid;
-}
 .contact-title {
-	border: blue 2px solid;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 }
-.contact-items {
-	border: gold 2px solid;
-}
+
 .contact-title h1 {
 	font-family: pacifico-regular;
 }
 .explanation {
 	width: 350px;
 	text-align: center;
+}
+.contact-items {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	gap: 10rem;
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	padding-top: 2rem;
 }
